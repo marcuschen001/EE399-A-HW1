@@ -18,7 +18,7 @@ $f(x) = A cos(Bx) + Cx + D$
 ![399_8](https://user-images.githubusercontent.com/66970342/230534936-11b77a3e-5727-4196-922d-d5a39f803c40.png)
 
 
-The four coefficient values A, B, C, and D are then treated as the control as two variables are sweeped and two variables are held constant in order to create a 2D loss (error) landscape. This is done for every combination of A, B, C, and D. 
+The four coefficient values A, B, C, and D are then treated as the control as two variables are sweeped and two variables are held constant in order to create a 2D loss (error) landscape, based on least-square error values for each combination of swept values. This is done for every combination of A, B, C, and D. 
 
 
 In the next experiment, function modeling and training sets are tested. In one training set, the first 20 values of the data sets are used in order to predict the values of the remaining 11 values. In the second training set, the first 10 and last 10 values of the data sets are used to predict the values of the middle 11 values. These are done over a linear model, a parabolic model, and a 19th degree polynomial model.
