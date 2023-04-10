@@ -1,4 +1,4 @@
-# EE-399-A
+# EE-399-A HW1
 
 ## Curve Fitting
 Marcus Chen, 7 April 2023
